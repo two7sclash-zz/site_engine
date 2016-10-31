@@ -1,0 +1,122 @@
+/*
+* jQuery UI CSS Framework
+* Copyright (c) 2009 AUTHORS.txt (http://jqueryui.com/about)
+* Dual licensed under the MIT (MIT-LICENSE.txt) and GPL (GPL-LICENSE.txt) licenses.
+*/
+
+/* Layout helpers
+----------------------------------*/
+#content .ui-helper-hidden { display: none; }
+#content .ui-helper-hidden-accessible { position: absolute; left: -99999999px; }
+#content .ui-helper-reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1; text-decoration: none; font-size: 14px; list-style: none; }
+#content .ui-helper-clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+#content .ui-helper-clearfix { display: inline-block; }
+/* required comment for clearfix to work in Opera \*/
+* html #content .ui-helper-clearfix { height:1%; }
+#content .ui-helper-clearfix { display:block; }
+/* end clearfix */
+#content .ui-helper-zfix { width: 100%; height: 100%; top: 0; left: 0; position: absolute; opacity: 0; filter:Alpha(Opacity=0); }
+
+
+/* Interaction Cues
+----------------------------------*/
+#content .ui-state-disabled { cursor: default !important; }
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+#content .ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+#content .ui-widget-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
+
+/*
+* jQuery UI CSS Framework
+* Copyright (c) 2009 AUTHORS.txt (http://jqueryui.com/about)
+* Dual licensed under the MIT (MIT-LICENSE.txt) and GPL (GPL-LICENSE.txt) licenses.
+* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Lucida%20Grande,%20Lucida%20Sans,%20Arial,%20sans-serif&fwDefault=normal&fsDefault=1.1em&cornerRadius=6px&bgColorHeader=f7b477&bgTextureHeader=03_highlight_soft.png&bgImgOpacityHeader=100&borderColorHeader=ffc087&fcHeader=000000&iconColorHeader=cfa472&bgColorContent=ffffff&bgTextureContent=04_highlight_hard.png&bgImgOpacityContent=100&borderColorContent=aaaaaa&fcContent=362b36&iconColorContent=cfa472&bgColorDefault=ffe9d5&bgTextureDefault=02_glass.png&bgImgOpacityDefault=80&borderColorDefault=ffc998&fcDefault=000000&iconColorDefault=ffc998&bgColorHover=ffc693&bgTextureHover=02_glass.png&bgImgOpacityHover=100&borderColorHover=ff9637&fcHover=000000&iconColorHover=ff9637&bgColorActive=ffffff&bgTextureActive=02_glass.png&bgImgOpacityActive=50&borderColorActive=ff9637&fcActive=000000&iconColorActive=ff9637&bgColorHighlight=ff938f&bgTextureHighlight=03_highlight_soft.png&bgImgOpacityHighlight=25&borderColorHighlight=f9dd34&fcHighlight=363636&iconColorHighlight=2e83ff&bgColorError=cd0a0a&bgTextureError=01_flat.png&bgImgOpacityError=15&borderColorError=cd0a0a&fcError=ffffff&iconColorError=ffffff&bgColorOverlay=eeeeee&bgTextureOverlay=08_diagonals_thick.png&bgImgOpacityOverlay=90&opacityOverlay=80&bgColorShadow=000000&bgTextureShadow=04_highlight_hard.png&bgImgOpacityShadow=70&opacityShadow=30&thicknessShadow=7px&offsetTopShadow=-7px&offsetLeftShadow=-7px&cornerRadiusShadow=8px
+*/
+
+
+/* Component containers
+----------------------------------*/
+#content .ui-widget { font-family: Arial, sans-serif; font-size: 1.0em; }
+#content .ui-widget input, #content .ui-widget select, #content .ui-widget textarea, #content .ui-widget button { font-family: Arial, sans-serif; font-size: 1em; }
+#content .ui-widget-content { border: 0; background: #ffffff url(images/ui-bg_highlight-hard_100_ffffff_1x100.png) 50% top repeat-x; color: #362b36; }
+#content .ui-widget-content a { color: #362b36; }
+#content .ui-widget-header { border: 1px solid #ffc087; background: #f7b477 url(images/ui-bg_highlight-soft_100_f7b477_1x100.png) 50% 50% repeat-x; color: #000000; font-weight: bold; }
+#content .ui-widget-header a { color: #000000; }
+
+/* Interaction states
+----------------------------------*/
+#content .ui-state-default, #content .ui-widget-content .ui-state-default { border: 1px solid #ffc998; background: #ffe9d5 url(images/ui-bg_glass_80_ffe9d5_1x400.png) 50% 50% repeat-x; font-weight: normal; color: #000000; outline: none; }
+#content .ui-state-disabled, #content .ui-widget-content .ui-state-disabled { border: 1px solid #ffc998; background: #e6e6e6 url(images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;font-weight: normal; color: #d7d7d7; outline: none; }
+#content .ui-state-default a, #content .ui-state-default a:link, #content  .ui-state-default a:visited { color: #000000; text-decoration: none; outline: none; }
+#content .ui-state-hover, #content .ui-widget-content .ui-state-hover, #content .ui-state-focus, #content .ui-widget-content .ui-state-focus { border: 1px solid #ff9637; background: #ffc693 url(images/ui-bg_glass_100_ffc693_1x400.png) 50% 50% repeat-x; font-weight: normal; color: #000000; outline: none; }
+#content .ui-state-hover a, #content .ui-state-hover a:hover { color: #000000; text-decoration: none; outline: none; }
+#content .ui-state-active, #content .ui-widget-content .ui-state-active { border: 1px solid #ff9637; background: #ffffff url(images/ui-bg_glass_50_ffffff_1x400.png) 50% 50% repeat-x; font-weight: normal; color: #000000; outline: none; }
+#content .ui-state-active a, #content .ui-state-active a:link, #content .ui-state-active a:visited { color: #000000; outline: none; text-decoration: none; }
+
+/* Interaction Cues
+----------------------------------*/
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+
+
+
+
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Corner radius */
+#content .ui-corner-tl { -moz-border-radius-topleft: 6px; -webkit-border-top-left-radius: 6px; }
+#content .ui-corner-tr { -moz-border-radius-topright: 6px; -webkit-border-top-right-radius: 6px; }
+#content .ui-corner-bl { -moz-border-radius-bottomleft: 6px; -webkit-border-bottom-left-radius: 6px; }
+#content .ui-corner-br { -moz-border-radius-bottomright: 6px; -webkit-border-bottom-right-radius: 6px; }
+#content .ui-corner-top { -moz-border-radius-topleft: 6px; -webkit-border-top-left-radius: 6px; -moz-border-radius-topright: 6px; -webkit-border-top-right-radius: 6px; }
+#content .ui-corner-bottom { -moz-border-radius-bottomleft: 6px; -webkit-border-bottom-left-radius: 6px; -moz-border-radius-bottomright: 6px; -webkit-border-bottom-right-radius: 6px; }
+#content .ui-corner-right {  -moz-border-radius-topright: 6px; -webkit-border-top-right-radius: 6px; -moz-border-radius-bottomright: 6px; -webkit-border-bottom-right-radius: 6px; }
+#content .ui-corner-left { -moz-border-radius-topleft: 6px; -webkit-border-top-left-radius: 6px; -moz-border-radius-bottomleft: 6px; -webkit-border-bottom-left-radius: 6px; }
+#content .ui-corner-all { -moz-border-radius: 6px; -webkit-border-radius: 6px; }
+
+/* Overlays */
+#content .ui-widget-overlay { background: #eeeeee url(images/ui-bg_diagonals-thick_90_eeeeee_40x40.png) 50% 50% repeat; opacity: .80;filter:Alpha(Opacity=80); }
+#content .ui-widget-shadow { margin: -7px 0 0 -7px; padding: 7px; background: #000000 url(images/ui-bg_highlight-hard_70_000000_1x100.png) 50% top repeat-x; opacity: .30;filter:Alpha(Opacity=30); -moz-border-radius: 8px; -webkit-border-radius: 8px; }/* Accordion
+----------------------------------*/
+#content .ui-tabs { padding: .2em; zoom: 1; }
+#content .ui-tabs .ui-tabs-nav { list-style: none; position: relative; padding: .2em .2em 0; }
+#content .ui-tabs .ui-tabs-nav li { position: relative; float: left; border-bottom-width: 0 !important; margin: 0 .2em -1px 0; padding: 0; }
+#content .ui-tabs .ui-tabs-nav li a { float: left; text-decoration: none; padding: .5em 1em; }
+#content .ui-tabs .ui-tabs-nav li.ui-tabs-selected { padding-bottom: 1px; border-bottom-width: 0; }
+#content .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+#content .ui-tabs .ui-tabs-nav li a, #content .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+#content .ui-tabs .ui-tabs-panel { padding: 1em 1.4em; display: block; border-width: 0; background: none; }
+#content .ui-tabs .ui-tabs-hide { display: none !important; }
+
+#content .ui-tabs .ui-tabs-nav li.ui-state-disabled a
+{
+cursor:default;
+color:#959595;
+
+}
+
+
+#chapterNav .ui-state-default,#chapterNav .ui-widget-content .ui-state-default { background:  url("../images/largeblue.gif")  }
+
+#chapterNav .ui-state-active, #chapterNav .ui-widget-content .ui-state-active {  background:  url("../images/largeorange.gif") }
+
+

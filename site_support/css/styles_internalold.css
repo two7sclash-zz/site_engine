@@ -1,0 +1,1066 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Link opens in new window; dimensions specify size of new window */
+a.popup {
+	width: 800px;
+	height: 560px;
+}
+
+a.crossword {
+	width: 730px;
+	height: 530px;
+}
+
+img {
+	border: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+/* Content not loaded in site shell*/
+#standalone-content {
+	display: inline-block;
+	min-height: 600px;
+	height: 100%;
+	width: 92%;
+	background-color: white;
+	text-align: left;
+	margin: 20px;
+	padding: 20px;
+}
+
+#welcome p {
+	margin-top: 10px;
+}
+
+.marketing-box-inner {
+	margin: 10px;
+	line-height: 1em;
+}
+
+#header {
+	/*background-color: black;*/
+	background-image: url("../images/topstrip.png");
+	background-repeat: no-repeat;
+	background-position:top;
+	height: 85px;
+	width: 100%;
+}
+
+#headerwrapper{
+	float:left;
+	width:976px;
+	padding-left:250px;
+	
+}
+
+#leftNav
+{
+	
+	float: left;
+	height:100%;
+	background-color:blue;
+	width:200px;
+	
+}
+#support-nav {
+	clear: both;
+	text-align: right;
+	margin-right:60px;
+	float:right;
+	width:600px;
+	padding: 5px 0	;
+	display: inline-block;
+
+}
+
+
+
+#support-nav ul li {
+	display: inline;
+	color: white;
+	margin: 0 2px 0 -4px;
+	padding: 0 10px;
+}
+
+#support-nav ul li a,
+#support-nav ul li a:visited {
+	/*color: white;*/
+	text-decoration: underline;
+}
+
+
+
+#home-nav {
+	clear: both;
+	text-align: left;
+	padding: 5px 0	;
+	display: inline-block;
+	width: 100%;
+}
+
+#home-nav ul {
+	margin-left: 35px;
+}
+
+#home-nav ul li {
+	display: inline;
+	color: white;
+	font-size: 80%;
+	font-weight: bold;
+	border-left: 1px solid white;
+	margin: 0 2px 0 -4px;
+	padding: 0 7px;
+}
+
+#home-nav ul li a,
+#home-nav ul li a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+#home-nav ul li a:hover {
+	text-decoration: underline;
+}
+
+#home-nav ul li.first {
+	border-left: none;
+}
+
+
+
+
+
+
+#logo {
+	float:left;
+	
+/*	margin: 0 0 0 0px;
+	padding-left:250px;*/
+	width:256px;
+	
+}
+
+#container-inner {
+	min-height: 620px;
+	height: auto !important;
+	height: 620px;
+	width:996px;
+	
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -30px;
+	margin-bottom: 0px;
+
+}
+
+#nav-bar {	
+	width: 95%;
+	margin: 0 auto;
+	display: inline-block;
+	clear: both;
+	padding-top: 7px;
+}
+
+/* Buttons for Premium Assets in Upper Left of Screen */
+
+div.nav-left {
+	float: left;
+	/*margin-left: 5px;*/
+}
+
+.nav-left {
+	border: none !important;
+	background: transparent !important;
+}
+
+#nav-left ul {
+	float: left;
+	width: 100%;
+	line-height: normal; 
+	padding: 0;
+	list-style: none;
+}
+
+#nav-left li {
+	float: left;
+	background: url("../images/button_premium_right.gif") no-repeat right top;
+	margin: 0;
+	margin-right: 10px;
+	padding: 0;
+}
+
+#nav-left li span {
+	display: block;
+	min-width: 60px;
+	background: url("../images/button_premium_left.gif") no-repeat left top;
+	font-size: 105%;
+	font-weight: bolder;
+	height: 28px;
+	padding: 6px 10px 4px 10px;
+}
+
+/* Link colors for Premium Buttons */
+
+.nav-left a,
+.nav-left a:visited {
+	color: #00345d;
+	text-decoration: none;
+}
+
+.nav-left a:hover {
+	color: #ce3c23;
+	text-decoration: underline;
+}
+
+.nav-right { 
+	float: right; 
+	background: transparent; /* don't give it a bg color until the corners have been rendered via jQuery */ 
+	height: 28px;
+	font-size:18px;
+	
+}
+
+.nav-right .inside { 
+	padding: 5px 10px 3px 10px; 
+}
+
+
+div.nav-right ul {
+	position: relative;
+	background: #001f3b;
+	margin: 0;
+	padding: 0;
+}
+
+div.nav-right ul li {
+	float: left;
+	border-left: 1px dotted #0089c5;;
+	padding: 0 10px;
+	font-size: 90%;
+}
+
+div.nav-right ul li.first {
+	border-left: none;
+	padding-right: 10px;
+}
+
+div.nav-right ul li,
+div.nav-right ul li a,
+div.nav-right ul li a:visited {
+	color:#0089c5;
+	text-decoration: none;
+
+}
+
+div.nav-right ul li a:hover {
+	text-decoration: underline;
+}
+
+.rtop{display:block;width:996px;margin:0 auto 0 auto}
+.rtop *{display: block; height: 1px; overflow: hidden}
+.r1{margin: 0 5px}
+.r2{margin: 0 3px}
+.r3{margin: 0 2px}
+.r4{margin: 0 1px; height: 2px} 
+
+/* Main page */
+/* border-top-color is set in styles.css */
+#content {
+	display: inline-block;
+	min-height: 600px;
+	height: auto !important;
+	height: 600px;
+	background-color: white;
+	clear: both;
+
+	background-color: white;
+
+	text-align: left;
+	width: 92%;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+/* Used for popup windows */
+#content.plain {
+	background-image: none;
+}
+
+#book {
+	vertical-align: top;
+	float: left;
+	display: inline-block;
+	width: 189px;
+}
+
+#welcome {
+	display: inline-block;
+	float: left;
+	margin-left: 20px;
+	vertical-align: top;
+}
+
+.wide-welcome {
+	width: 56%;
+}
+
+.narrow-welcome {
+	width: 54%
+}
+
+/* Marketing Boxes at the Right Side of the Screen */
+#marketing {
+	float: right;
+	width: 180px;
+	vertical-align: top;
+	margin-left: 10px;
+}
+
+#asset-buttons {
+	margin-top: 20px;
+	width: 100%;
+	float: left;
+}
+
+#asset-buttons ul li {
+	margin: 0;
+	margin-right: 5px;
+	padding: 0;
+	float: left;
+	background-color: #f0f0f0;
+	border: 1px solid gray;
+	text-align: left;
+	color: #00345d;
+	width: 95px;
+	height: 100px;
+}
+
+#asset-buttons ul li span {
+	text-align: center;
+}
+
+#asset-buttons ul li.last {
+	margin-right: 0;
+}
+
+#asset-buttons ul li img {
+	margin: 0;
+	/*height: 48px;
+	width: 95px;*/
+}	
+
+.asset-info {
+	border: none !important;
+	background: transparent !important;
+}
+
+.asset-info span {
+	display: block;	
+	background-image: url('../images/button-bottom.gif'); 
+	background-repeat: no-repeat; 
+	background-position: top; 
+	width: 86px; 
+	height: 36px; 
+	padding-top: 5px; 
+	margin-top: -5px;
+	line-height: .9em;
+}
+
+.asset-info img {
+	clear: both;
+	width: 86px !important;
+}
+
+.asset-info a,
+.asset-info a:visited {
+	font-weight: bolder;
+	font-size: 85%;
+	color: #00345d;
+}
+
+.asset-info a:hover {
+	/*color: red;*/
+}
+
+#layoutContainer {
+	padding-bottom: 20px;
+	text-align: center;
+	display: inline-block;
+	min-width: 1000px;
+	width: 100%;
+}
+
+#footerwrapper
+{
+		display: inline-block;
+	
+	height: auto !important;
+	height: 26px;
+	
+	clear: both;
+
+	background-color:transparent;
+	
+	text-align: left;
+	width: 96%;
+	margin-top:-12px;
+	
+	
+
+	
+}
+#footer {	
+	display: inline-block;
+	height:30px;
+	background-color:#0d385b;
+	clear: both;
+	padding-top: 8px;
+	line-height: 18pt;
+	font-size: 9pt;
+	/*background-color: transparent;*/
+	color: black;
+	margin: 0px;
+	width:100%;
+	
+	
+}
+div.left {
+
+	float:left;
+}
+div.right {
+
+	float:right;
+	text-align: right;
+}
+#footer a {
+	color: #FFFFFF;
+}
+
+#footer ul {
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+#footer ul li {
+	float: left;
+	border-left: 1px solid white;
+	padding: 0 6px;
+	font-size: 80%;
+	color: white;
+}
+
+#footer ul li.first {
+	border-left: none;
+	margin: 0;
+	padding-left: 0;
+	margin-left: 5px;
+}
+
+#footer ul li.last {
+	padding-right: 0;
+}
+
+#footer p {
+	color: #fff;
+	float: left;
+	margin-top: -3px;
+	xmargin-left: 5px;
+}
+
+span.cengage {
+	font-weight: bold;
+}
+
+#footer ul.legal {
+	clear: both;
+	margin-top: 10px;
+	width: 100%;
+}
+
+#footer ul.legal li {
+	margin-left: 0; 
+}
+
+#footer ul.contact {
+	float: right;
+}
+
+#footer ul.contact li {
+	text-align: right;
+}
+
+.popupdiv {
+	display:none;
+	width: 250px;
+	height: auto;
+	border: 1px solid #0089c5;
+	background-color:white
+}
+
+.popup-heading {
+	text-align: left !important;
+	margin: 0 10px;
+}
+
+.popup-description {
+	width:250px; 
+	height: 20px;
+	background: inherit; 
+	background-color: #0089c5; 
+	color: white;
+	text-align: left;
+	padding-top: 5px;
+}
+
+
+.shapediv {
+	text-align: left !important;
+	margin: 10px 10px;
+	clear: both;
+	padding: 10px 0;
+}
+
+.popup-description span.button {
+	float: right;
+}
+
+.popup-link {
+	position: relative; 
+	clear: both;
+	float: left; 
+	margin-top: 10px;
+	margin-bottom: 10px; 
+}
+
+/* Home 2 */
+
+/*#side-menu-home {
+	width: 200px;
+	float: left;
+	border: 1px solid #828283;
+	border-bottom: none;
+	height: 180px;
+	margin-left: 10px;
+}
+
+#side-menu-home ul li {
+	border-bottom: 1px solid #828283;
+	float: left;
+	height: 35px;
+}
+
+#side-menu-home .side-text {
+	display: block;
+	float: left;
+	clear: left;
+	height: 100%;
+	width: 94px;
+	background-image: url("../images/side-menu-bg.jpg");
+	background-repeat: repeat-x;
+	border-right: 1px solid #828283;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	xfont-size: 65%;
+	line-height: 1em;
+}
+
+#side-menu-home a,
+#side-menu-home a:visited {
+	color: #0089c5;
+	text-decoration: none;
+	xfont-weight: bold;
+	display: block;
+	width: 80%;
+}
+
+#side-menu-home a:hover {
+	color: #ce3c23;
+	text-decoration: underline; 
+}
+
+#side-menu-home .side-image {
+	float: right;
+	width: 94px;
+}
+
+#side-menu-home .side-image img {
+	width: 95px;
+	height: 35px;
+	margin: 0 0 -3px 0;
+	padding: 0;
+}
+
+#side-menu-home .popup-description {
+	height: 17px;	
+}
+
+#side-menu-home .popup-heading {
+	display: block;
+	margin-top: -3px;
+	xfont-size: 80%;
+	margin-left: 10px;
+}*/
+
+/* Left Side div that holds either book cover or Left Side Menu */
+
+div#left-side {
+	float: left;
+	clear: left;
+	display: inline-block;
+	width: 200px;
+	
+}
+
+/* Chapter Select Buton */
+
+div#chapterselect {
+	float: left;
+	clear: left;
+	display: inline-block;
+	width: 200px;
+}
+
+/* Protection icon */
+
+/* This span must enclose the last word of a protected menu option and the lock image to keep the icon from breaking onto a second line by itself if the option name is long enough. This is the only solution that works in IE. */
+span.secure {
+	display: inline-block;
+}
+
+img.lock {
+	padding-left: 10px;
+}
+
+
+/* START INNER */
+
+
+/* MENU */
+ul#side-menu {
+	/*border: 1px solid #828283;*/
+	/*display: inline-block;*/
+	clear: left;
+	float: left;
+	width: 175px;
+	margin: 10px;
+	background: #979797;
+	/*margin-left: 10px;*/
+}
+
+.top-level a.main-option {
+	cursor: pointer;
+	border: 1px solid #B3B3B3;
+	background: url("../images/side-menu-bg.jpg");
+	color: #00345D;
+	display: block;
+	font-weight: bold;
+	margin: 0px;
+	padding: 8px 0 8px 10px;
+}
+
+.top-level a.selected {
+	background: url("../images/side-menu-selected-bg.jpg");
+	color: #FFF;
+}
+
+/*ul#side-menu li.first {
+	border-top: none;
+	margin-top: -10px;
+}*/
+
+ul.inner-menu {
+	width: 175px;
+	background: #979797;
+	font-weight: bold;
+	overflow: visible;
+	/*margin-bottom: -9px;
+	margin-left: -10px;
+	margin-top: 9px;
+	padding: 10px 0;*/
+}
+
+ul#side-menu li ul.inner-menu li {
+	font-size: 90%;
+	overflow-y: visible;
+	border: none;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	cursor: pointer;
+}
+
+ul.inner-menu li span {
+	display: block;
+	padding: 3px 10px 3px 20px;
+}
+
+ul#side-menu li ul.inner-menu li a,
+ul#side-menu li ul.inner-menu li a:visited {
+	color: #fff;
+}
+
+ul#side-menu li ul.inner-menu li a:hover {
+	/*text-decoration: underline;
+	color: #fff;*/
+}
+
+ul#side-menu li.selected a.main-option,
+ul#side-menu li.selected a.main-option:visited {
+	color: #fff;
+	font-weight: bold;
+}
+
+ul#side-menu ul.inner-menu li.sub-selected {
+	background: url("../images/menu_highlight_bottom.gif") no-repeat bottom center;
+	/*background-color: #b0dbed;*/
+	/*background-color: transparent;*/
+	color: #00345d !important;
+	cursor: default;
+}
+
+/* Selected option in submenu */
+
+ul.inner-menu li.sub-selected span {
+	display: block;
+	background: url("../images/menu_highlight_top.gif") no-repeat top center;
+}
+
+ul#side-menu ul.inner-menu li.sub-selected a,
+ul#side-menu ul.inner-menu li.sub-selected a:visited {
+	color: #00345d; !important;
+	text-decoration: none; !important;
+	cursor: default;
+}
+
+/* Main area of page that holds home page or asset content */
+div.main {
+	/*position: absolute;
+	left: 240px;*/
+	float: right;
+	display: inline-block;
+	width: 690px;
+	/*padding-top: 10px;*/
+}
+
+/* Asset or bucket content */
+#content-page {
+	/*float: right;*/
+	width: 690px;
+	margin-top: 15px;
+	margin-right: 20px;
+	font-size: 110%;
+}
+
+.chapter-number {
+	float: left;
+}
+
+/* Used for bullet between chapter number and title */
+.separator {
+	float: left;
+	font-size: 120%;
+	margin-left: .5em;
+	margin-right: .5em;
+	margin-top: -.1em;
+	font-weight: bold;
+}
+
+#chapter-heading.chapter-title {
+	float: left;
+	width: 550px;
+}
+
+/* In chapter menu */
+
+ul.select-chapter li {
+	/*position: static;
+	display: inline-block;
+	margin: 0;
+	padding-bottom: 10px;*/
+	clear: left;
+}
+
+.select-chapter li div.chapter-title {
+	float: left;
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+#asset-title {
+	padding-top: 10px;
+	clear: both;
+}
+
+#content-page p {
+	margin-top: 10px;
+	line-height: 1.2em;
+}
+
+/* Lists in body text */
+
+ul.list,
+#welcome-text ul,
+#content-page ul {
+	margin-top: 10px;
+	margin-left: 20px;
+	list-style-type: disc;
+}
+
+ol.list,
+#welcome-text ol,
+#content-page ol {
+	margin-top: 10px;
+	margin-left: 30px;
+	list-style-type: decimal;
+}
+
+ul.list li,
+ol.list li,
+#welcome-text ul li,
+#welcome-text ol li,
+#content-page ul li,
+#content-page ol li {
+	margin-bottom: 10px;
+}
+
+ul.list li a,
+ul.list li a:visited,
+ol.list li a,
+ol.list li a:visited,
+#welcome-text ul li a,
+#welcome-text ul li a:visited,
+#welcome-text ol li a,
+#welcome-text ol li a:visited,
+#content-page ul li a,
+#content-page ul li a:visited,
+#content-page ol li a,
+#content-page ol li a:visited {
+	color: #0089c5;
+	text-decoration: none;
+}
+
+ul.list li a:hover,
+ol.list li a:hover,
+#welcome-text ul li a:hover,
+#welcome-text ol li a:hover,
+#content-page ul li a:hover,
+#content-page ul li a.asset-hover,
+#content-page ol li a:hover,
+#content-page ol li a.asset-hover {
+	color: #ce3c23;
+	text-decoration: underline;
+}
+
+/* Messages about content not available or coming soon*/
+
+.missing {
+	color: #ce3c23;
+}
+
+.leftside {
+	float: left;
+	margin-right: 4px;
+}
+
+.rightside {
+	float: right;
+}
+
+#chapterselect {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+/* Content on Asset Page */
+
+.asset-content {
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+div.link-name {
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+div.link-description {
+	padding-bottom: 20px;
+}
+
+.glossary-term {
+	font-weight: bold;
+}
+
+.glossary-definition {
+	font-weight: normal;
+}
+
+/* Linked table of contents for book asset */
+
+ul#asset-toc {
+	list-style: none;
+}
+
+ul#asset-toc li {
+	/*position: static;*/
+	display: inline-block;
+	margin: 0;
+	padding-bottom: 5px;
+}
+
+#asset-toc div.chapter-number {
+	clear:left;
+}
+
+#asset-toc div.chapter-title {
+	float: left;
+	width: 400px;
+}
+
+.download-link {
+	float: left;
+}
+
+.file-info {
+	float: left;
+	margin-left: 10px;
+	margin-top: 2px;
+	font-size: 80%;
+}
+
+/* BUCKET HOME PAGE */
+
+.bucket-content {
+	margin: 15px 0 0 0;
+}
+
+
+.bucket-description {
+	height: 100px;
+	padding-bottom: 20px;
+}
+
+.bucket-description img {
+	/*width: 138px;
+	height: 92px;*/
+	margin-right: 15px;
+	float: left;
+}
+
+#bucket-blurb {
+	margin-right: 200px;
+}
+
+/*.popupbox {
+	position: absolute;
+	top: 20px;
+	height: 200px;
+	width: 200px;
+	background: #fff;
+	border: 2px solid #0089c5;
+	color: #00345d;
+	display: block;
+	padding: 5px;
+	float: left;
+	margin: 0 2px;
+}*/
+
+#select-a-chapter {
+	background-color: #fff;	
+	z-index: 999;
+}
+
+/* Popup chapter menu */
+
+#popup-chapters {
+	display: block;
+	clear: both;
+	width: 700px;
+	height: expression( this.scrollHeight > 499 ? "499px" : "auto" ); /* sets max-height for IE */
+    max-height: 500px;  /*sets max-height value for all standards-compliant browsers */
+} 	
+					
+ul.select-chapter {
+	width: 46%;
+	text-align: left;
+	margin-left: 15px;
+	height: 100%;
+}
+
+ul.select-chapter li {
+	margin: 20px 0;
+	font-size: 110%;	
+}
+
+ul.select-chapter li a,
+ul.select-chapter li a:visited {
+	color: #0089c5 !important;
+	text-decoration: none;
+}
+
+ul.select-chapter li a:hover {
+	color: #ce3c23 !important;
+	text-decoration: none !important;
+	cursor: pointer;
+}
+
+#chapter-popup-header {
+	display: inline-block;
+	width: 100%;
+	padding: 5px 0;
+	margin: 0;
+	float: left;
+}
+
+#chapter-popup-header h4 {
+	float: left;  
+	width: 40%;
+	text-align: left;
+	padding: 0;
+	margin: 5px 0 0 15px;
+}
+
+#chapter-popup-close {
+	float: right;
+	text-align: right;
+	margin: 0 10px 0 10px;
+	padding: 0;
+}
+
+#chapter-popup-close img {
+	padding: 0;
+	margin: 0;
+}
+
+#backgroundPopup {  
+	display :none;  
+	position: fixed;  
+	_position: absolute; /* hack for internet explorer 6*/  
+	height: 100%;  
+	width: 100%;  
+	top: 0;  
+	left: 0;  
+	background: #000000;  
+	border: 1px solid #cecece;  
+	z-index: 1;  
+}  
+
+div.video-options {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div.video-options span{
+	margin-right: 30px;
+	font-size: 80%;
+}

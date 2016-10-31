@@ -1,0 +1,70 @@
+.wide-welcome {
+	width: 52%;
+}
+
+h2 {
+	margin-right: 15px;
+}
+
+#side-menu-home{
+	margin-left: 10px;
+}
+
+#book {
+	margin-left: 6px;
+}
+
+#chapterselect {
+	margin-left: 22px;
+}
+
+#container-inner {
+	padding-right: 25px;
+}
+
+#content {
+	width: 96%;
+	padding: 0;
+}
+
+#content-body {
+	margin: 0 10px;
+}
+
+#nav-bar {
+	padding-bottom: 5px;
+	width: 97%;
+}
+
+div.nav-left ul li {
+	margin-left: -3px;
+}
+
+div.nav-right {
+	margin-right: 3px;
+}
+
+
+#footer p {
+	margin-top: -3px;
+}
+
+#assets ul li {
+	margin-right: 0px;
+}
+
+
+.asset-info img {
+	margin: 0;
+	padding: 0;
+}
+
+.asset-info span {
+	line-height: 1em;
+	padding-top: 1px; 
+	margin-top: -5px;
+}
+
+#popup-chapters {
+	width: 680px;
+}

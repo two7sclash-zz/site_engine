@@ -1,0 +1,66 @@
+<script type="text/javascript">
+			$(document).ready(function() {
+			$.ajax({
+				url: "m4a/schmidt_ch1.xml",
+				dataType: "html",
+				success: function (html) {
+				$("p",html).removeAttr("dur").removeAttr("begin").appendTo("#transcript").append("&nbsp;").children("br").replaceWith("&nbsp;");
+				var captions = $("#transcript").text();
+				$("#transcript").html(captions);
+				}
+			});
+			$("#transcript").hide();
+			 $("#print-transcript").hide();
+			
+			 // Toggle the display for a video transcript
+			 $("a#toggle-transcript").click(function() {
+			 $("#transcript").toggle();
+			 if ($("#transcript").is(':visible')) {
+			 $("a#toggle-transcript").html("Hide Transcript");
+			 $("#print-transcript").show();
+			 } else {
+			 $("a#toggle-transcript").html("View Transcript");
+			 $("#print-transcript").hide();
+			 }
+			 });
+			
+			 // Print transcript for video
+			 $("a#print-transcript").click(function() {
+			 var captions = $("#transcript").text();
+  			 newWin=window.open('','','toolbar=no,scrollbars=no,width=10,height=10')
+  			 newWin.document.open("text/html","Print-Window");
+  			 newWin.document.write('<html><body onload="window.print()">'+captions+'</body></html>');
+  			 newWin.document.close();
+  			 setTimeout(function(){newWin.close();},10);
+			 return(false);
+			 });
+			 
+			 });
+</script>
+<div class="assetHeading download"></div>
+<div class="helpLink"><a href="/coursemate/shared/help/download_help.html?panel=3#Accordion1" class="popup">Help Accessing<br />
+This Resource</a></div>
+<div class="instructions download"></div>
+<div class="playerSpace">
+<div id="playercontainer" class="playercontainer"><a id="player" class="player" href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash">Get the Flash Player to play this audio</a></div>
+</div>
+
+<div id="[%name%]MediaArea">
+
+	<div class="transcriptPane"><div class="transcriptText"></div></div>
+	<div class="transcriptToggle"><span><a class="viewTranscript" href="javascript: void(0)">View Transcript</a></span></div>
+	
+	<div class="mediaText">
+		<ul class="playlistAudio">
+			[%beginSection%]
+			<li>
+				<div>[%section.title%]</div>
+				<div class="mediaOptions">
+					<div><span><a class="playMedia" href="javascript: void(0)">Play</a></span><span class="downloadMedia"><a href="[%section.urlNoExtension%].[%mediaOptions.downloadMediaExt%]" title="[%mediaOptions.downloadMediaLabel%]">Download Audio</a> </span><span class="downloadTranscript"><a href="[%section.urlNoExtension%].[%mediaOptions.downloadTranscriptExt%]">Download Transcript</a></span></div>
+				</div>
+			</li>
+			[%endSection%]
+		</ul>
+	</div>
+	
+</div>

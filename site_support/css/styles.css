@@ -1,0 +1,121 @@
+body {
+	margin: 0px !important;
+	padding: 0px;
+	font-size: 10pt;
+	font-family: Arial, Sans-serif !important;
+	background: url("../images/blue-gradient.jpg");
+	background-repeat: repeat-x;
+	background-color: #d0edfb;
+	text-align: center;
+}
+
+
+/* Link Styles */
+a, a:visited {
+	color: #0089c5;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ce3c23;
+	text-decoration: underline;
+}
+
+/* To create a custom size for a popup window,
+modify the values below, replacing "custom-style"
+with the name of the style; then use the class name in the link tag:
+<a href="filename.html" class="popup custom-style">
+
+a.popup.custom-style {
+	width: 200px;
+	height: 200px;
+}
+*/
+
+a.popup.large {
+	width: 1000px;
+	height: 680px;
+}
+
+/* Text Styles */
+h2 {
+	float: right;
+	margin-right: 30px;
+	width: 60%;
+	font-size: 140%;
+	color: white;
+}
+
+h2 span {
+	float: right;
+	clear: both;
+	text-align: right;
+	padding: 10px 0 0 0;
+}
+
+/* Book Title */
+h2 span.edition {
+	width: 100%;
+	color: black;
+	font-size: 100%;
+}
+
+/* Author Names */
+h2 span.author {
+	margin-top: -10px;
+	width: 100%;
+	font-size: 100%;
+	font-weight: normal;
+	color: black;
+}
+
+#welcome h3 {
+	font-weight: bold;
+}
+
+.marketing-box {
+	border: 1px solid #fb8800; /* Border color */
+	margin-bottom: 20px;
+	margin-right: 10px;
+	width: 100%;
+}
+
+.marketing-box h4 {
+	background-color: #fb8800; /* Color of background for heading*/
+	color: white;
+	xfont-size: 90%;
+	text-align: center;
+	padding: 3px 0;
+	width: 100%;
+	text-transform: uppercase;
+}
+
+/* Asset Page */
+
+/* Used for chapter title */
+#chapter-heading {
+	font-size: 120%;
+	font-weight: bold;
+	color: #00386A;
+}
+
+/* Used for bucket/asset title */
+#asset-title {
+	font-size: 110%;
+	font-weight: bold;
+	padding-bottom: 8pt;
+}
+
+/* Popup chapter menu */
+#chapter-popup-header {
+	background: url("../images/popupheader.jpg");
+	background-repeat: none;
+	background-color: #df6500;
+	height:22px;
+}
+
+#chapter-popup-header h4 {
+	color: #ffffff;
+	font-size: 16px;
+	font-family:Arial;
+}

@@ -1,0 +1,128 @@
+<!-- Studious Template for Premium Web Site Shell -->
+<!-- This wrapper floats the center content for the entire page -->
+
+<div id="layoutContainer">
+	<!--The header contains a corporate logo and support navigation -->
+	<div id="header">
+		<div id="headerwrapper" >
+			<div id="logo">
+				<div id="logoForeground"><a href="http://www.cengage.com/highered/" target="_blank" title="Cengage Learning"><img src="logo_added_here" /></a></div>
+			</div>
+			<div id="supportNav">
+				<ul>
+					<li><a href="http://www.cengage.com/support/" target="_blank" title="Technical Support">24/7 Support</a></li>
+					<li id="survey"><a href="" style="padding:0;margin:0" class="popup"><img align="absbottom" border="none" src="images/orangearrow.gif" /></a> <a style="padding:0;margin:0" href="http://cengage.qualtrics.com/SE?SID=SV_01m5KCjMBDN8OMc&SVID=Prod" class="popup">Tell us what you think!</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--End header area-->
+	<!-- Top Nav Bar containing links to Home and popup assets -->
+	<div id="navBar" >
+		<!-- Links added dynamically to this ul -->
+		<ul id="navItems">
+		</ul>
+	</div>
+	<div id="roundedTopBorder"> <img src="images/toproundedcorner.gif" /> </div>
+	<!-- Body -->
+	<div id="containerInner">
+		<div id="leftSide">
+			<div id="bookInfoWrapper" class="leftNavBoxes" style="margin-top:30px">
+				<!-- Bibliographic info added dynamically -->
+				<div id="bookInfo">
+					<div id="bookTitle"></div>
+					<div id="bookSubtitle"></div>
+					<div id="edition"></div>
+					<div id="author"></div>
+				</div>
+			</div>
+			<!-- Chapter Navigation -->
+			<div id="chapterSelectWrapper" class="leftNavBoxes">
+				<div class="leftNavHeadings">
+					<div id="previousChapter" class="inactive">&nbsp;</div>
+					<div id="selectChapter" >Select Chapter</div>
+					<div class="active" id="nextChapter">&nbsp;</div>
+				</div>
+			</div>
+			<!-- Chapter title added dynamically -->
+			<div id="currentChapter" class="leftNavBoxes">
+				<div></div>
+			</div>
+			<!-- Buttons for selecting Chapter View -->
+			<div id="chapterView" class="leftNavBoxes">
+				<ul>
+					<li class="noHover"><strong>Browse:</strong></li>
+					<li id="thisChapter" class="selected" style="margin-left:-10px;">This Chapter</li>
+					<li id="allChapers">All Chapters</li>
+				</ul>
+			</div>
+			<!-- Side Menu -->
+			<div id="sideMenuWrapper" >
+				<!-- Menu options added dynamically -->
+				<ul id="sideMenu">
+				</ul>
+			</div>
+		</div>
+		<!-- Main Page Area -->
+		<div id="mainArea">
+			<div id="masthead"><img src="images/masthead.jpg" /></div>
+			<div id="breadcrumbs"><span></span></div>
+			<div id="contentRtop"> <img src="images/roundgreytopcorner.jpg" /></div>
+			<!-- Home Page -->
+			<div id="homePage" class="main">
+				<div id="home">
+					<div id="hometext">
+						<div id="homeIntro"></div>
+					</div>
+				</div>
+				<div id="homeLogin"></div>
+			</div>
+			<div id="contentArea" class="main">
+				<div id="bucketContent">
+					<div id="bucketTabs">
+						<ul>
+						</ul>
+					</div>
+				</div>
+				<div id="assetContent">
+					<!--<div id="assetBlurb">Blurb for asset goes here</div>-->
+					<div id="assetText" class="assetContent"> </div>
+					<div id="assetTabs">
+						<ul>
+							<li><a href="#tabsMenu"><span id="menuTab">Menu</span><span class="protected">&nbsp;</span></a></li>
+							<li><a href="#tabsAsset"><span id="contentTab">Content</span><span class="protected">&nbsp;</span></a></li>
+						</ul>
+						<div id="tabsMenu"></div>
+						<div id="tabsAsset"></div>
+					</div>
+				</div>
+			</div>
+			<div id="contentError" class="main"> </div>
+			<div id="contentRbottom" > <img src="images/roundgreybottomcorner.jpg" /> </div>
+		</div>
+		<!--- left navigation zone --->
+		<div id="clearmain">&nbsp;</div>
+		<!--- end of main content area --->
+	</div>
+	<!-- The footer -->
+	<div id="footer">
+		<div class="left">
+			<ul class="footerNav">
+				<li class="first" > <a href="http://www.cengage.com/" style="color:#ffffff;text-decoration:none !important">Cengage Learning</a> &nbsp;&nbsp; </li>
+				<li class="first"><a href="http://www.cengage.com/content/footer/terms_of_use.aspx">Terms of Use</a></li>
+				<li ><a href="http://www.cengage.com/content/footer/privacy_statement.aspx">Privacy Statement</a></li>
+			</ul>
+		</div>
+		<!-- end footer -->
+	</div>
+	<!--- End Wrapper --->
+</div>
+<div id="chapterMenu" style="display: none;">
+	<div id="chapterMenuHeader">
+		<div id="chapterMenuLabel">Select a Chapter</div>
+		<div id="closeChapterMenu"> <img style="cursor:pointer" src="images/button-close.gif" alt="Close Chapter Menu" /> </div>
+	</div>
+	<!-- Chapter Menu options added dynamically -->
+	<div id="chapterList"> </div>
+</div>
+<div id="backgroundPopup"></div>
